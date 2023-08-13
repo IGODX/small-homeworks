@@ -1,0 +1,1 @@
+(()=>{"use strict";document.getElementById("startButton").addEventListener("click",(()=>{!function(t){const e=setInterval((()=>{t>=0?(console.log(t),t--):clearInterval(e)}),1e3)}(parseInt(document.getElementById("countInput").value,10))}))})();
